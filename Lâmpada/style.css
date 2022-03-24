@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+  }
+
+header, main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+img{
+	margin-left:35vw;
+}
+#interruptor img{
+	width:50px;
+	margin-right:30%;
+
+}
+
+#inverter{
+	transform: rotate(180deg);
+	margin-left: 43.5vw;
+}
+
+.button{
+	position: absolute;
+	bottom: 7vh;
+	left: -30vw;
+}
